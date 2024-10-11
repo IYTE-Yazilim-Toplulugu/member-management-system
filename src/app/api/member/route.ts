@@ -1,6 +1,6 @@
 import ConnectDB from "@/config/db";
 import UserModel from "@/schema/user.schema";
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 
 
 export const GET = async () => {
